@@ -1,0 +1,771 @@
+.topbar ul.dropdown-user{
+    width: 400px;
+}
+.topbar{
+    background: #37a650;
+}
+.table thead th, .table th {
+ border: 1px solid #dee2e6;;
+}
+thead tr{
+    background-color: #f2f7f8;
+}
+.st-tr{
+    background-color: #f0f0f0;
+}
+#filterBtn{
+    float: left;
+    margin-right: 30px;
+}
+.listLabels{
+    list-style: none;
+    padding: 30px 15px;
+    margin: 0;
+}
+.listLabels li{
+    margin-bottom: 15px;
+}
+
+
+
+.caret {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    margin-left: 2px;
+    vertical-align: middle;
+    border-top: 4px solid;
+    border-right: 4px solid transparent;
+    border-left: 4px solid transparent;
+}
+
+.multiselect>select {
+    position: absolute!important;
+    bottom: 0;
+    left: 50%;
+    display: block!important;
+    width: .5px!important;
+    height: 100%!important;
+    padding: 0!important;
+    opacity: 0!important;
+    border: none;
+}
+
+.multiselect .btn-group-multi .dropdown-toggle:before {
+    content: '';
+    display: inline-block;
+}
+:not(.input-group)>.multiselect.form-control:not([class*=col-]) {
+    width: 100%;
+}
+.form-group .multiselect, .form-horizontal .multiselect, .form-inline .multiselect {
+    margin-bottom: 0;
+}
+.multiselect:not(.input-group-btn), .multiselect[class*=col-] {
+    float: none;
+    display: inline-block;
+    margin-left: 0;
+}
+.multiselect.form-control {
+    margin-bottom: 0;
+    padding: 0;
+    border: none;
+}
+
+.multiselect>.btn-group-multi>.dropdown-toggle {
+    position: relative;
+    width: 100%;
+    z-index: 1;
+    text-align: right;
+    white-space: nowrap;
+
+}
+
+.multiselect .dropdown-toggle .filter-option {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-top: inherit;
+    padding-right: inherit;
+    padding-bottom: inherit;
+    padding-left: inherit;
+    height: 100%;
+    width: 100%;
+    text-align: left;
+}
+.multiselect .dropdown-menu {
+    min-width: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.multiselect .btn-group label {
+    color: #21252A !important;
+    display: block;
+}
+.multiselect .btn-group label:hover{
+    cursor:pointer;
+}
+.multiselect-group{
+    background-color: #F8F9FA;
+    margin: 5px 8px;
+    padding: 7px 10px 0px;
+    border-radius: 4px;
+}
+.multiselect-group a{
+    color: #54667a;
+}
+.multiselect-group a label b{
+    font-weight: normal;
+}
+.caret-container{
+    margin-left: 20px;
+}
+
+
+.itemLi {
+    position: relative;
+
+}
+
+.itemLi .checkbox input[type="checkbox"]{
+    opacity: 1;
+    left: 15px;
+    top: 11px;
+}
+
+.bootstrap-select>.dropdown-toggle.bs-placeholder, .bootstrap-select>.dropdown-toggle.bs-placeholder:active, .bootstrap-select>.dropdown-toggle.bs-placeholder:focus, .bootstrap-select>.dropdown-toggle.bs-placeholder:hover {
+    color: #2f3336;
+}
+#rent_sale_switch{
+    margin-top: 28px !important;
+}
+
+.multiselect .checkbox{
+    display: block;
+}
+.multiselect .checkbox:hover {
+    cursor: pointer;
+}
+
+.demoColor{
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    margin: 0 0 0 15px;
+    top: 3px;
+    position: relative;
+}
+.hexColor{
+    display: inline-block;
+}
+
+#dateRange,#year,#period,#week,#day{
+    font-size: 14px;
+    color:#292d30;
+    background-color: #f8f9fa;
+    border-color: #f8f9fa;
+    cursor: pointer;
+    position: relative;
+    z-index: 1;
+}
+#dateRange::placeholder,#year::placeholder,#period::placeholder,#week::placeholder,#day::placeholder{
+    color: #292d30;
+}
+#dateRange:hover,#year:hover,#period:hover,#week:hover,#day:hover {
+    background-color: #e2e6ea;
+    border-color: #dae0e5;
+}
+#dateRange:focus,#year:focus,#period:focus,#week:focus,#day:focus {
+    box-shadow: 0 0 0 0.2rem rgba(216, 217, 219, .5);
+    background-color: #e2e6ea;
+    border-color: #dae0e5;
+    outline: none;
+}
+.dropdown-toggle:before {
+    content: '';
+    display: inline-block;
+}
+
+#labels_chart4{
+    padding: 0;
+}
+#clearFilterBtn{
+    float: left;
+    margin-right: 30px;
+}
+
+#printBtn,#printBtnCO{
+    margin-left: 25px;
+}
+#printBtn i,#printBtnCO i{
+    margin-right: 10px;
+}
+#morris-area-chart svg, #morris-area-chart1 svg, #morris-area-chart2 svg,#morris-area-chart3 svg{
+    width: 100% !important;
+}
+.dropdown-item.active, .dropdown-item:active {
+    color: #fff;
+    text-decoration: none;
+    background-color: #37a650;
+
+}
+/*.left-sidebar{*/
+    /*width: 260px;*/
+/*}*/
+.multiselect .dropdown-menu{
+    max-height: 300px;
+    overflow-y: scroll;
+}
+
+.dealTableBtn{
+    color: #37a650;
+    cursor: pointer;
+}
+
+#labels_chart2{
+    padding: 0;
+
+}
+#labels_chart2 h5{
+    font-size: 11px;
+}
+#labels_chart2 li {
+     margin-bottom: 0;
+}
+
+#detailedViewTable{
+    width: 100% !important;
+}
+
+.ranges{
+    max-height: 150px;
+    overflow-y: scroll;
+}
+
+.datepicker-years{
+    font-size: 14px;
+    color:#292d30;
+}
+.datepicker table tr td span.active,
+.datepicker table tr td span.active.disabled,
+.datepicker table tr td span.active.disabled:hover,
+.datepicker table tr td span.active:hover{
+    background-image: none ;
+    background-color: #37a650;
+    color: #fff;
+}
+.datepicker table tr td span.active.active,
+.datepicker table tr td span.active.disabled,
+.datepicker table tr td span.active.disabled.active,
+.datepicker table tr td span.active.disabled.disabled,
+.datepicker table tr td span.active.disabled:active,
+.datepicker table tr td span.active.disabled:hover,
+.datepicker table tr td span.active.disabled:hover.active,
+.datepicker table tr td span.active.disabled:hover.disabled,
+.datepicker table tr td span.active.disabled:hover:active,
+.datepicker table tr td span.active.disabled:hover:hover,
+.datepicker table tr td span.active.disabled:hover[disabled],
+.datepicker table tr td span.active.disabled[disabled],
+.datepicker table tr td span.active:active,
+.datepicker table tr td span.active:hover,
+.datepicker table tr td span.active:hover.active,
+.datepicker table tr td span.active:hover.disabled,
+.datepicker table tr td span.active:hover:active,
+.datepicker table tr td span.active:hover:hover,
+.datepicker table tr td span.active:hover[disabled],
+.datepicker table tr td span.active[disabled] {
+    background-color: #37a650;
+}
+.datepicker table tr td span {
+    height: 30px;
+    line-height: 30px;
+}
+
+.periodCalendar .daterangepicker td.active,
+.periodCalendar .daterangepicker td.active:hover {
+    background-color: #37a650;
+}
+
+.periodCalendar .calendar-table tbody tr:hover{
+    background-color: #37a650;
+    color: #fff;
+}
+.periodCalendar  td.available:hover,
+.periodCalendar  th.available:hover {
+    background-color: #37a650;
+    border-color: transparent;
+    color: inherit;
+    border-radius: 0;
+}
+.periodCalendar  .calendar-table th,
+.periodCalendar  .calendar-table td,
+.singleDayCalendar  .calendar-table td{
+    border-radius: 0 !important;
+}
+.periodCalendar  td.start-date.end-date,
+.singleDayCalendar td.start-date.end-date{
+    border-radius: 0 !important;
+}
+
+.periodCalendar td.active,
+.periodCalendar td.active:hover,
+.singleDayCalendar td.active,
+.singleDayCalendar td.active:hover {
+    background-color: #37a650;
+}
+ .datepicker table tr td span{
+    border-radius: 0 !important;
+}
+.datepicker table tr td span.focused, .datepicker table tr td span:hover {
+    background: #37a650;
+    color: #fff;
+}
+.form-control:disabled, .form-control[readonly] {
+    opacity: 0.3;
+    cursor: not-allowed !important;
+}
+
+.form-control:disabled:hover{
+    cursor: not-allowed !important;
+}
+
+.radioCont input{
+    margin-right: 5px;
+}
+.radioCont label{
+    margin-right: 10px;
+}
+
+.radioCont label:disabled:hover,.radioCont input:disabled:hover{
+    cursor: not-allowed !important;
+}
+
+.radioCont label:hover,.radioCont input:hover{
+    cursor: pointer;
+}
+
+.greaterthanplan{
+    color:#55ce63;
+}
+.fewerthanplan{
+    color: #f62d51;
+}
+
+.btn-container{
+    padding: 30px 0;
+}
+#delete_form{
+    display: inline-block;
+    margin-left: 15px;
+}
+.asColorPicker-alpha{
+    display: none!important;
+}
+
+#reportsMenu i{
+    margin-right: 6px;
+}
+
+.ms-container{
+    width: 100%;
+}
+
+#employeesGroup{
+    height: 400px;
+    overflow-y: scroll;
+}
+.employessTitle{
+    margin: 30px 0;
+}
+.multiselect-filter{
+    margin: 10px;
+}
+.multiselect-filter .input-group-btn{
+    display: none;
+}
+
+#periodLbl{
+    margin: 10px 0;
+    display: block;
+}
+
+#periodLbl span{
+    font-size: 14px;
+    font-weight: 400;
+    color: #292d30;
+
+}
+.employeesCont{
+    margin:30px 0;
+}
+
+.mediaPrint{
+    display: none;
+}
+
+body .mini-logo{
+    display: none;
+}
+
+.mini-sidebar .mini-logo{
+    display: inline-block;
+}
+.navbar-brand span{
+    line-height: 70px;
+}
+
+.label-success{
+    background-color: #37a650;
+}
+.text-themecolor {
+    color: #556080 !important;
+}
+
+.user-profile .profile-img::before{
+    animation: none;
+}
+
+.sidebar-nav > ul > li > a.active, .sidebar-nav > ul > li > a:hover {
+    border-left: 3px solid #37a650;
+}
+
+.sidebar-nav ul li a.active, .sidebar-nav ul li a:hover {
+    color: #37a650;
+}
+.sidebar-nav > ul > li > a.active, .sidebar-nav > ul > li > a:hover {
+    border-left: 3px solid #37a650;
+}
+.sidebar-nav ul li a.active, .sidebar-nav ul li a:hover {
+    color: #37a650;
+}
+.sidebar-nav > ul > li > a.active, .sidebar-nav > ul > li > a:hover {
+    border-left: 3px solid #37a650;
+}
+
+.sidebar-nav ul li a.active, .sidebar-nav ul li a:hover {
+    color: #37a650;
+}
+
+.sidebar-nav > ul > li > a.active i, .sidebar-nav > ul > li > a:hover i {
+    color: #37a650;
+}
+
+.sidebar-nav > ul > li > a.active i, .sidebar-nav > ul > li > a:hover i {
+    color: #37a650;
+}
+.sidebar-nav > ul > li.active > a {
+    border-left: 3px solid #37a650;
+    color: #37a650;
+}
+.sidebar-nav > ul > li.active > a {
+    border-left: 3px solid #37a650;
+    color: #37a650;
+}
+.sidebar-nav > ul > li.active > a i {
+    color: #37a650;
+}
+.sidebar-nav > ul > li.active > a i {
+    color: #37a650;
+}
+
+.btn-outline-success {
+    color: #37a650;
+    background-color: transparent;
+    border-color: #37a650;
+}
+.btn-outline-success:hover, .btn-outline-success:focus, .btn-outline-success.focus {
+    background: #37a650;
+    border-color: #37a650;
+    color: #ffffff;
+}
+.table td, .table th{
+    vertical-align: middle;
+}
+.daterangepicker .ranges li.active {
+    background-color: #37a650;
+    color: #fff;
+}
+.daterangepicker td.active, .daterangepicker td.active:hover {
+    background-color: #37a650;
+}
+
+.btn-success, .btn-success.disabled {
+    background: #37a650;
+    border: 1px solid #37a650;
+}
+.radio-success input[type="radio"]:checked + label::before {
+    border-color: #37a650;
+}
+.radio-success input[type="radio"]:checked + label::after {
+    background-color: #37a650;
+}
+.radio-success input[type="radio"] + label::after {
+    background-color: #37a650;
+}
+
+.has-danger .form-control {
+    border-color: #f62d51 !important;
+}
+.dropdown-toggle::after{
+    display: none;
+}
+.btn-group-multi button:disabled{
+    cursor: not-allowed;
+}
+.itemLi .radio label{
+    display: block;
+    margin-bottom: 0;
+}
+.itemLi .radio label:before{
+    top: 2px;
+}
+.active .itemLi .radio-success label:before,
+.active .itemLi-2 .radio-success label:before{
+    border-color: #37a650;
+}
+.active .itemLi .radio-success label:after
+{
+    background-color: #37a650;
+    -ms-transform: scale(1, 1);
+    -o-transform: scale(1, 1);
+    -webkit-transform: scale(1, 1);
+    transform: scale(1, 1);
+    top: 7px;
+}
+.active .itemLi-2 .radio-success label:after{
+    background-color: #37a650;
+    -ms-transform: scale(1, 1);
+    -o-transform: scale(1, 1);
+    -webkit-transform: scale(1, 1);
+    transform: scale(1, 1);
+    top: 5px;
+}
+#singleDate{
+    color: #212529;
+    background-color: #f8f9fa;
+    border-color: #f8f9fa;
+    font-size: 14px;
+
+}
+#singleDate:hover{
+    cursor: pointer;
+    color: #212529;
+    background-color: #e2e6ea;
+    border-color: #dae0e5;
+}
+#singleDate:active{
+    outline: none;
+    box-shadow: none;
+}
+#singleDate::-webkit-input-placeholder { /* Edge */
+    color: #212529;
+}
+
+#singleDate:-ms-input-placeholder { /* Internet Explorer */
+    color: #212529;
+}
+
+#singleDate::placeholder {
+    color: #212529;
+}
+.sa_item_link{
+    color: #37a650;
+}
+.sa_item_link:hover{
+    color: #57ce72;
+}
+/*#roles_index #delete_form{*/
+    /*margin: 10px 0 0 0;*/
+/*}*/
+/*label.radio[title="Выбрать"]{*/
+    /*display: none !important;*/
+
+/*}*/
+
+/*.dropdown-menu.li:first-child{*/
+    /*display: none;*/
+/*}*/
+#consultants_schedule_table{
+    /*border: 1px solid #dee2e6;*/
+    font-size: 12px;
+    vertical-align: middle;
+}
+#consultants_schedule_table .btn-link{
+    font-size: 12px !important;
+    color:#37a650;
+}
+#consultants_schedule_table .btn-link:hover{
+    color:#37a650;
+}
+#consultants_schedule_table .col{
+    width: 140px!important;
+}
+#consultants_schedule_table .col-tel{
+    width: 130px!important;
+}
+#consultants_schedule_table .col-fixed{
+    width: 200px!important;
+}
+#consultants_schedule_table th:first-child, #consultants_schedule_table td:first-child
+{
+    position:sticky;
+    left:0;
+    background-color: #fff;
+    /*outline: 1px solid #dee2e6;*/
+    z-index: 1000;
+
+}
+
+#consultants_schedule_table th:last-child, #consultants_schedule_table td:last-child
+{
+    position:sticky;
+    right:0;
+    background-color: #fff;
+    /*outline: 1px solid #dee2e6;*/
+    z-index: 1000;
+
+
+}
+.tableFixHead{
+    max-height: 650px;
+    overflow: scroll;
+    position: relative;
+}
+.tableFixHead thead{
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    height: 88px;
+    z-index: 10000;
+}
+
+.tableFixHead thead tr:first-child {
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    z-index: 10000;
+}
+.tableFixHead thead tr:last-child {
+    position: sticky;
+    position: -webkit-sticky;
+    top: 44px;
+    z-index: 10000;
+}
+.fixedContainer{
+
+}
+.radio label::before{
+    top:3px;
+}
+.radio label::after{
+    top:8px;
+}
+
+.col-day-off,.col-day-off:focus,.col-day-off:active{
+    background-color:#ff0033;
+    color:#fff;
+    outline: none;
+    box-shadow: none;
+}
+.col-holiday,.col-holiday:focus,.col-holiday:active{
+    background-color: #ff9800;
+    color:#fff;
+    outline: none;
+    box-shadow: none;
+}
+.col-schedule,.col-schedule:focus,.col-schedule:active{
+    background-color: #37a650;
+    color:#fff;
+    outline: none;
+    box-shadow: none;
+}
+.col-hospital,.col-hospital:focus,.col-hospital:active{
+    background-color: #cddc39;
+    color:#fff;
+    outline: none;
+    box-shadow: none;
+}
+.col-day-off .btn-link,
+.col-holiday .btn-link ,
+.col-schedule .btn-link,
+.col-hospital .btn-link{
+    color:#fff!important;
+}
+.topbar{
+    z-index: 5000;
+}
+#consultantsScheduleModal{
+    z-index: 10000;
+}
+.page-item.active .page-link {
+    z-index: 1;
+    color: #fff;
+    background-color: #37a650;
+    border-color: #37a650;
+}
+.pagination > .active > a, .pagination > .active > span, .pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus {
+    background-color: #4CAF50;
+    border-color: #4CAF50;
+}
+.page-link:hover {
+    z-index: 2;
+    color: #39924d;
+}
+#incomePaysTable.table thead th{
+    text-align: center;
+    vertical-align: middle !important;
+}
+#incomePaysTable.table .date{
+    min-width: 130px;
+    text-align: center;
+}
+#incomePaysTable.table .p-id{
+    max-width: 150px;
+}
+#incomePaysTable.table .actions{
+    text-align: center;
+    min-width: 130px;
+}
+.work-time-select,.work-time-select:focus,.work-time-select:active{
+    font-size:13px;
+    padding: 5px;
+    height: calc(2rem + 2px);
+    border: none;
+    outline: none;
+    box-shadow: none;
+}
+@media (min-width: 768px){
+    /*.navbar-header {*/
+        /*width: 260px;*/
+    /*}*/
+
+    .mini-sidebar .sidebar-nav #sidebarnav > li:hover > a {
+        /*width: 260px;*/
+        background: #37a650;
+        color: #ffffff;
+        border-color: #37a650;
+    }
+}
+@media (min-width: 1024px){
+    /*.footer {*/
+        /*left: 260px;*/
+    /*}*/
+}
+@media (max-width: 767px){
+    /*.mini-sidebar .left-sidebar, .mini-sidebar .sidebar-footer {*/
+        /*left: -260px;*/
+    /*}*/
+}
+@media (max-width: 828px){
+    #filterBtn,#clearFilterBtn,#chartBtn,#printBtn,#printBtnCO{
+        float: none;
+        width: 100%;
+        margin:0 0 10px 0;
+
+    }
+    #rent_sale_switch{
+        width: 100%;
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "/js/app.js": "/js/app.js",
+    "/css/app.css": "/css/app.css",
+    "/css/all.css": "/css/all.css",
+    "/js/all.js": "/js/all.js",
+    "/css/login.css": "/css/login.css",
+    "/js/login.js": "/js/login.js",
+    "/fonts/themify.woff": "/fonts/themify.woff",
+    "/fonts/materialdesignicons-webfont.woff": "/fonts/materialdesignicons-webfont.woff",
+    "/fonts/materialdesignicons-webfont.woff2": "/fonts/materialdesignicons-webfont.woff2",
+    "/fonts/weathericons-regular-webfont.woff": "/fonts/weathericons-regular-webfont.woff",
+    "/fonts/weathericons-regular-webfont.woff2": "/fonts/weathericons-regular-webfont.woff2",
+    "/fonts/Simple-Line-Icons.ttf": "/fonts/Simple-Line-Icons.ttf"
+}

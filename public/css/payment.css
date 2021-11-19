@@ -1,0 +1,65 @@
+body{
+    padding-bottom: 30px;
+}
+#pTitle{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.margin-text{
+    margin-top:5px;
+    display: block;
+}
+#panel{
+    margin-top: 15px;
+}
+#pSearch .row{
+    margin-bottom: 15px;
+}
+
+#pTabs .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    color: #fff;
+    background-color: #37a650;
+}
+
+a {
+    color: #37a650;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+a:hover {
+    color: #277c3a;
+    text-decoration: underline;
+}
+#pContractData{
+    margin: 15px 0;
+
+}
+.btn-warning{
+    background: #ffbc34;
+    border: 1px solid #ffbc34;
+    color: #ffffff;
+}
+.btn-warning:hover, .btn-warning.disabled:hover {
+    background: #ffbc34;
+    color: #ffffff;
+    opacity: 0.7;
+    border: 1px solid #ffbc34;
+}
+#pSaveSettings{
+    margin-top: 10px;
+}
+.card{
+    margin-bottom: 15px;
+}
+.was-validated .custom-select:valid, .custom-select.is-valid {
+    border-color: #37a650;
+}
+.addRowBtn{
+    margin-bottom:15px;
+}
+.btn-success{
+    color: #fff;
+    background-color: #37a650;
+    border-color: #37a650;
+}
